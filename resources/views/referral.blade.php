@@ -31,7 +31,7 @@
 <app-sidebar _ngcontent-c1="" _nghost-c3=""><aside _ngcontent-c3="" class="sidebar">
 <ul _ngcontent-c3="">
 <li _ngcontent-c3="">
-    <a _ngcontent-c3="" routerlink="/buy" routerlinkactive="active" href="index.html">
+    <a _ngcontent-c3="" routerlink="/buy" routerlinkactive="active" href="{{ url('home') }}">
         <svg _ngcontent-c3="" height="147px" version="1.1" viewBox="0 0 147 147" width="147px" xmlns="http://www.w3.org/2000/svg">
         <path _ngcontent-c3="" sketch:type="MSShapeGroup" d="M49.855347,68.5742713 L35.892273,68.5742713 L41.9866534,49.5196897 L49.855347,49.5196897 L49.855347,48.593961 L49.855347,27.9193542 L73.9242923,27.9193542 L73.9242923,65.7970853 L91.7445691,45.5853428 L117.742116,45.5853428 L117.742116,47.4368002 L94.9846194,73.665779 L118.667844,108.380604 L118.667844,111.080646 L92.7474418,111.080646 L79.7100965,91.2546236 L73.9242923,97.7347243 L74.0014364,111.080646 L49.855347,111.080646 L49.855347,94.8803942 L28.3321556,94.8803942 L34.426536,75.8258125 L49.855347,75.8258125 L49.855347,68.5742713 Z M73.5,147 C114.092929,147 147,114.092929 147,73.5 C147,32.9070709 114.092929,0 73.5,0 C32.9070709,0 0,32.9070709 0,73.5 C0,114.092929 32.9070709,147 73.5,147 Z" id="K-Circle"></path>
     </svg>
@@ -44,12 +44,7 @@
     Referrals
 </a>
 </li>
-<li _ngcontent-c3="">
-<a _ngcontent-c3="" routerlink="/faq" routerlinkactive="active">
-    <i _ngcontent-c3="" class="fa fa-question-circle-o"></i>
-    Faq / Tutorials
-</a>
-</li>
+
 <li _ngcontent-c3="">
 <a _ngcontent-c3="">
     <i _ngcontent-c3="" class="fa fa-file-pdf-o"></i>
@@ -57,7 +52,7 @@
 </a>
 </li>
 <li _ngcontent-c3="">
-<a _ngcontent-c3="" routerlink="/profile" routerlinkactive="active" href="Profile.html">
+<a _ngcontent-c3="" routerlink="/profile" routerlinkactive="active" href="{{ url('profile') }}">
     <i _ngcontent-c3="" class="fa fa-user"></i>
     Profile
 </a>

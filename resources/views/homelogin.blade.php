@@ -91,7 +91,7 @@
             </app-stats>
             <!----><div _ngcontent-c3="" class="header-krylls">
             <!----><div _ngcontent-c3="" title="Personal buys and referrals">
-            <label _ngcontent-c3="">Total</label>0.00 KRL
+            <label _ngcontent-c3="">Total</label>0.00 4RC
             <div _ngcontent-c3="" class="header-krylls-tagline">Acquired + referrals</div>
         </div>
     </div>
@@ -114,17 +114,12 @@
         </a>
     </li>
     <li _ngcontent-c4="">
-        <a _ngcontent-c4="" routerlink="/referrals" routerlinkactive="active" href="Referrals.html">
+        <a _ngcontent-c4="" routerlink="/referrals" routerlinkactive="active" href="{{ url('referral') }}">
             <i _ngcontent-c4="" class="fa fa-users"></i>
             Referrals
         </a>
     </li>
-    <li _ngcontent-c4="">
-        <a _ngcontent-c4="" routerlink="/faq" routerlinkactive="active" >
-            <i _ngcontent-c4="" class="fa fa-question-circle-o"></i>
-            Faq / Tutorials
-        </a>
-    </li>
+
     <li _ngcontent-c4="">
         <a _ngcontent-c4="" >
             <i _ngcontent-c4="" class="fa fa-file-pdf-o"></i>
@@ -132,7 +127,7 @@
         </a>
     </li>
     <li _ngcontent-c4="">
-        <a _ngcontent-c4="" routerlink="/profile" routerlinkactive="active" href="Profile.html">
+        <a _ngcontent-c4="" routerlink="/profile" routerlinkactive="active" href="{{ url('profile') }}">
             <i _ngcontent-c4="" class="fa fa-user"></i>
             Profile
         </a>
