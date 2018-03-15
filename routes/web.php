@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/home', function () {
+    return view('homelogin');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Route::get('/referral', function () {
+    return view('referral');
+});
